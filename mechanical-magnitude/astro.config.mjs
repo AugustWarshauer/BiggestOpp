@@ -4,6 +4,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
+	base: '/BiggestOpp/',  // This tells Astro to use the right base path
 	integrations: [
 		starlight({
 			title: 'My Docs',
